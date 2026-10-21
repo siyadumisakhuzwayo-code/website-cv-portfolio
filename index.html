@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siyadumisa Khuzwayo | Software Developer & CV Portfolio</title>
+  <meta name="description" content="Portfolio and Curriculum Vitae of Siyadumisa Khuzwayo. Software development student skilled in HTML, CSS, Python, Databases, and Microsoft Office Suite. Creator of the Lesson Session Platform.">
+  <meta name="author" content="Siyadumisa Khuzwayo">
+  <meta name="keywords" content="Siyadumisa Khuzwayo, Software Developer, Eshowe, South Africa, Portfolio, HTML, CSS, Python, Databases, Excel, Word, PowerPoint">
+
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Tech Theme Background: Interactive Falling Binary Code Canvas -->
+  <canvas id="binary-canvas" aria-hidden="true"></canvas>
+  <div class="ambient-glow" aria-hidden="true"></div>
+
+  <!-- Main Site Wrapper -->
+  <div class="site-wrapper">
+
+    <!-- Sticky Navigation Header -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#home" class="brand-link" aria-label="Siyadumisa Khuzwayo Home">
+          <span class="brand-badge">SK</span>
+          <span>Siyadumisa Khuzwayo</span>
+        </a>
+
+        <nav aria-label="Main Navigation">
+          <ul class="nav-links">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills & Tools</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#strengths" class="nav-link">Strengths</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a href="https://github.com/siyadumisakhuzwayo-code" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer" title="View GitHub Profile">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+            </svg>
+            GitHub
+          </a>
+          <a href="cv.pdf" class="btn btn-primary btn-sm" download="Siyadumisa_Khuzwayo_CV.pdf" target="_blank" rel="noopener noreferrer">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"></path>
+            </svg>
+            Download CV
+          </a>
+          <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ===================================================================
+           HERO SECTION
+           =================================================================== -->
+      <section id="home" class="hero-section">
+        <div class="container hero-grid">
+          
+          <div class="hero-content">
+            <div class="pill-badge" style="margin-bottom: 1.25rem;">
+              <span class="pulse-dot"></span>
+              Available for Internships &amp; Junior Roles
+            </div>
+
+            <span class="hero-greeting">// Hello World, I'm</span>
+            <h1 class="hero-name"><span class="highlight">Siyadumisa</span> Khuzwayo</h1>
+            <p class="hero-title">
+              Software Development Student &amp; Aspiring Developer
+            </p>
+
+            <p class="hero-bio">
+              Motivated software development student with a deep passion for building reliable, well-structured software and practical applications. Proficient in <strong>HTML &amp; CSS</strong>, <strong>Python</strong>, <strong>relational databases</strong>, and an extensive grasp of the <strong>Microsoft Office Suite</strong> (Word, Excel, PowerPoint). Focused on pragmatic problem-solving, clean code, and continuous learning.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary btn-lg">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z"></path>
+                </svg>
+                View Featured Project
+              </a>
+              <a href="cv.pdf" class="btn btn-secondary btn-lg" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"></path>
+                </svg>
+                View PDF CV
+              </a>
+              <a href="#contact" class="btn btn-secondary btn-lg">
+                Get in Touch
+              </a>
+            </div>
+
+            <div class="hero-quick-meta">
+              <div class="quick-meta-item">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"></path>
+                </svg>
+                <span>Based in: <strong>Eshowe, KZN, South Africa</strong></span>
+              </div>
+              <div class="quick-meta-item">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4.26 10.147a60.436 60.436 0 00-.491 6.347A48.627 48.627 0 0112 20.904a48.627 48.627 0 018.232-4.41 60.46 60.46 0 00-.491-6.347m-15.482 0a50.57 50.57 0 00-2.658-.813A59.905 59.905 0 0112 3.493a59.902 59.902 0 0110.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.697 50.697 0 0112 13.489a50.702 50.702 0 017.74-3.342"></path>
+                </svg>
+                <span>Studying at: <strong>CTU Career</strong></span>
+              </div>
+              <div class="quick-meta-item">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 21v-8.25M15.75 21v-8.25M8.25 21v-8.25M3 9l9-6 9 6m-1.5 12V10.333M4.5 21V10.333"></path>
+                </svg>
+                <span>Alumni: <strong>Eshowe High School</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Profile Card (Terminal Style) -->
+          <div class="hero-card">
+            <div class="card-topbar">
+              <div class="terminal-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">siyadumisa@portfolio ~ info</span>
+              <span class="code-font" style="font-size: 0.75rem; color: var(--royal-400);">v1.0.0</span>
+            </div>
+
+            <div class="hero-card-body">
+              <div class="avatar-wrapper">
+                <div class="avatar-initials">SK</div>
+                <div class="avatar-info">
+                  <h3>Siyadumisa Khuzwayo</h3>
+                  <p>Software Development Student</p>
+                  <span class="status-pill">
+                    <span class="pulse-dot"></span> Ready for Employment &amp; Internships
+                  </span>
+                </div>
+              </div>
+
+              <div class="hero-details-list">
+                <div class="detail-row">
+                  <span class="detail-label">Email:</span>
+                  <span class="detail-value">
+                    siyadumisakhuzwayo@gmail.com
+                    <button class="card-copy-btn" data-copy="siyadumisakhuzwayo@gmail.com" data-label="Email" title="Copy Email">
+                      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </button>
+                  </span>
+                </div>
+
+                <div class="detail-row">
+                  <span class="detail-label">Phone:</span>
+                  <span class="detail-value">
+                    064 852 9236
+                    <button class="card-copy-btn" data-copy="0648529236" data-label="Phone number" title="Copy Phone">
+                      <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
+                    </button>
+                  </span>
+                </div>
+
+                <div class="detail-row">
+                  <span class="detail-label">Location:</span>
+                  <span class="detail-value">Sunnydale, Eshowe, 3815</span>
+                </div>
+
+                <div class="detail-row">
+                  <span class="detail-label">GitHub:</span>
+                  <span class="detail-value">
+                    <a href="https://github.com/siyadumisakhuzwayo-code" target="_blank" rel="noopener noreferrer" style="color: var(--royal-300);">
+                      @siyadumisakhuzwayo-code
+                    </a>
+                  </span>
+                </div>
+
+                <div class="detail-row">
+                  <span class="detail-label">Education:</span>
+                  <span class="detail-value">CTU Training Solutions</span>
+                </div>
+
+                <div class="detail-row">
+                  <span class="detail-label">High School:</span>
+                  <span class="detail-value">Eshowe High School</span>
+                </div>
+
+                <div class="detail-row">
+                  <span class="detail-label">Key Stack:</span>
+                  <span class="detail-value" style="color: var(--royal-300);">Python, HTML/CSS, SQL, Office</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           ABOUT / PROFILE SECTION
+           =================================================================== -->
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Background &amp; Motivation</span>
+            <h2 class="section-title">About Siyadumisa</h2>
+            <p class="section-subtitle">
+              A grounded developer who believes in clean fundamentals, disciplined data handling, and building tools that solve actual day-to-day challenges.
+            </p>
+          </div>
+
+          <div style="background: var(--surface-card); border: 1px solid var(--border-subtle); border-radius: 16px; padding: 2.25rem; backdrop-filter: blur(14px);">
+            <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.25rem;">
+              My journey in software development began with a genuine curiosity for how computer systems process information and solve problems logically. Having attended <strong>Eshowe High School</strong> and subsequently pursuing formal <strong>Software Development studies at CTU Career</strong>, I have cultivated a structured approach to writing software that is dependable, readable, and easy to maintain.
+            </p>
+            <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.25rem;">
+              In addition to writing code in <strong>HTML, CSS, and Python</strong>, I place significant emphasis on productivity software and data integrity. I possess a <strong>very good grasp of Microsoft Word, Excel, and PowerPoint</strong>, enabling me to handle complex documentation, build analytical spreadsheets, and present technical concepts cleanly. Furthermore, my training in <strong>relational databases</strong> allows me to structure tables, model data relationships, and query records effectively.
+            </p>
+            <p style="font-size: 1.05rem; line-height: 1.8;">
+              I am actively seeking an internship, learnership, or entry-level opportunity where I can contribute my practical development skills, learn from experienced engineering teams, and deliver measurable value.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           PROJECTS SHOWCASE SECTION
+           =================================================================== -->
+      <section id="projects" class="projects-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Practical Implementation &amp; Proof</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">
+              Real-world software built to demonstrate architectural thinking, API contracts, video communication integration, and full-stack session management.
+            </p>
+          </div>
+
+          <!-- FEATURED PROJECT: TUTORVERSE / LESSON SESSION PLATFORM -->
+          <div class="featured-project-card">
+            <div class="featured-header">
+              <div class="project-badge-group">
+                <span class="badge-featured">Featured Production Project</span>
+                <span class="badge-live">
+                  <span class="pulse-dot"></span> Live on Vercel
+                </span>
+              </div>
+              <span class="code-font" style="font-size: 0.85rem; color: var(--text-muted);">Platform Architecture</span>
+            </div>
+
+            <h3 class="project-title">Tutorverse — Lesson Session Platform</h3>
+            <p class="project-lead">
+              A specialized real-time virtual classroom platform for teachers and students (comparable to Zoom or Microsoft Teams), designed specifically for scheduled academic lessons.
+            </p>
+
+            <p class="project-description">
+              I designed and built the <strong>Lesson Session Platform</strong> to streamline online academic learning. Much like Microsoft Teams or Zoom, the application coordinates real-time video classrooms between educators and learners, but eliminates manual room link setup through an automated backend booking intake service and dynamic video room orchestration.
+            </p>
+
+            <!-- Technical Architecture Breakdown -->
+            <div class="project-architecture">
+              <h4 class="arch-title">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color: var(--royal-400);">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"></path>
+                </svg>
+                Core Engineering Highlights:
+              </h4>
+
+              <div class="arch-grid">
+                <div class="arch-item">
+                  <span class="arch-item-title">// Automated Room Generation</span>
+                  <span class="arch-item-desc">Integrated Jitsi Meet video engine to generate unique, secure virtual lesson rooms dynamically upon booking intake without requiring third-party app installations.</span>
+                </div>
+
+                <div class="arch-item">
+                  <span class="arch-item-title">// RESTful API Contract</span>
+                  <span class="arch-item-desc">Engineered intake endpoints: <code>POST /sessions</code> to receive subject, tutor, student, and schedule payloads, and <code>GET /sessions/{id}</code> to supply metadata for the room.</span>
+                </div>
+
+                <div class="arch-item">
+                  <span class="arch-item-title">// Database Session Persistence</span>
+                  <span class="arch-item-desc">Implemented database tracking to record active, historical, and scheduled lessons, allowing educators to inspect live session logs and real-time statuses.</span>
+                </div>
+
+                <div class="arch-item">
+                  <span class="arch-item-title">// Interactive Booking Simulator</span>
+                  <span class="arch-item-desc">Created a dashboard UI that allows administrators to simulate booking events, test endpoint boundaries, and immediately monitor room instantiation.</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tech Tags -->
+            <div class="tech-tags">
+              <span class="tech-tag">HTML5 &amp; CSS3</span>
+              <span class="tech-tag">JavaScript (ES6+)</span>
+              <span class="tech-tag">REST API Architecture</span>
+              <span class="tech-tag">Jitsi Meet Integration</span>
+              <span class="tech-tag">Database Persistence</span>
+              <span class="tech-tag">Vercel Cloud Deployment</span>
+            </div>
+
+            <!-- Proof of Work & Links -->
+            <div class="project-links">
+              <a href="https://lesson-session-platform.vercel.app" class="proof-link-badge" target="_blank" rel="noopener noreferrer">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"></path>
+                </svg>
+                Launch Live App: lesson-session-platform.vercel.app
+              </a>
+
+              <a href="https://github.com/siyadumisakhuzwayo-code/lesson-session-platform" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                </svg>
+                View Repository
+              </a>
+
+              <span style="font-size: 0.85rem; color: var(--text-muted); display: inline-flex; align-items: center; gap: 6px;">
+                <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color: var(--accent-emerald);">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                Verified live proof of deployment
+              </span>
+            </div>
+          </div>
+
+          <!-- Secondary Projects / Academic Work -->
+          <div class="secondary-projects-grid">
+            <div class="project-card">
+              <div class="project-card-header">
+                <span class="project-card-type">Data Management &amp; Persistence</span>
+                <h4 class="project-card-title">Student &amp; Course Database System</h4>
+              </div>
+              <p class="project-card-desc">
+                Relational schema design with structured normalization, foreign key constraints, and SQL query scripting to manage student enrollments, grading records, and administrative reports.
+              </p>
+              <div class="tech-tags" style="margin-bottom: 0;">
+                <span class="tech-tag">SQL</span>
+                <span class="tech-tag">Relational Modeling</span>
+                <span class="tech-tag">Data Integrity</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-card-header">
+                <span class="project-card-type">Python Programming</span>
+                <h4 class="project-card-title">Object-Oriented Logic &amp; Automation</h4>
+              </div>
+              <p class="project-card-desc">
+                Practical Python implementations applying object-oriented design principles (classes, encapsulation, inheritance), file I/O operations, and algorithmic problem-solving routines.
+              </p>
+              <div class="tech-tags" style="margin-bottom: 0;">
+                <span class="tech-tag">Python 3</span>
+                <span class="tech-tag">OOP</span>
+                <span class="tech-tag">Data Structures</span>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-card-header">
+                <span class="project-card-type">Responsive Web Design</span>
+                <h4 class="project-card-title">Semantic Web Interfaces &amp; Templates</h4>
+              </div>
+              <p class="project-card-desc">
+                Clean, accessible web interfaces authored with semantic HTML5 elements, flexible CSS Grid &amp; Flexbox styling, mobile-first responsiveness, and cross-browser consistency.
+              </p>
+              <div class="tech-tags" style="margin-bottom: 0;">
+                <span class="tech-tag">HTML5</span>
+                <span class="tech-tag">CSS3</span>
+                <span class="tech-tag">Responsive UI</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           SKILLS & TOOLS SECTION (Office Suite, Databases, Code)
+           =================================================================== -->
+      <section id="skills" class="skills-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Competencies &amp; Technical Capabilities</span>
+            <h2 class="section-title">Skills &amp; Productivity Tools</h2>
+            <p class="section-subtitle">
+              A balanced blend of programming languages, database architectures, and office productivity software essential for professional execution.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+
+            <!-- Category 1: Office Suite (Word, Excel, PowerPoint) -->
+            <div class="skill-category-card">
+              <div class="category-icon-wrapper">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Microsoft Office Suite</h3>
+              <p class="category-desc">Very strong grasp of core workplace productivity and documentation tools.</p>
+
+              <ul class="skill-items-list">
+                <li class="skill-item highlight-pill">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">Microsoft Word</span>
+                    <span class="skill-item-badge">Proficient</span>
+                  </div>
+                  <span class="skill-item-detail">Technical specifications, structured project reports, documentation templates, formatting standards, and table generation.</span>
+                </li>
+
+                <li class="skill-item highlight-pill">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">Microsoft Excel</span>
+                    <span class="skill-item-badge">Proficient</span>
+                  </div>
+                  <span class="skill-item-detail">Data sorting and filtering, formulas and functions, organized financial/operational records, and summary spreadsheets.</span>
+                </li>
+
+                <li class="skill-item highlight-pill">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">Microsoft PowerPoint</span>
+                    <span class="skill-item-badge">Proficient</span>
+                  </div>
+                  <span class="skill-item-detail">Professional slide decks, technical presentations, structured visual hierarchy, and clear stakeholder summaries.</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Category 2: Databases & Data Management -->
+            <div class="skill-category-card">
+              <div class="category-icon-wrapper">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Databases &amp; Data</h3>
+              <p class="category-desc">Practical grounding in relational data structures, schemas, and queries.</p>
+
+              <ul class="skill-items-list">
+                <li class="skill-item highlight-pill">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">Relational Databases (SQL)</span>
+                    <span class="skill-item-badge">Core Study</span>
+                  </div>
+                  <span class="skill-item-detail">Understanding primary/foreign keys, joins, table indexing, and structured data querying.</span>
+                </li>
+
+                <li class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">Database Schema Design</span>
+                    <span class="skill-item-badge">Applied</span>
+                  </div>
+                  <span class="skill-item-detail">Entity relationship modeling, data normalization principles, and integrity constraint enforcement.</span>
+                </li>
+
+                <li class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">Session &amp; State Storage</span>
+                    <span class="skill-item-badge">Project Proven</span>
+                  </div>
+                  <span class="skill-item-detail">Persisting session identifiers, booking records, and user payload management in web apps.</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Category 3: Programming & Web Languages -->
+            <div class="skill-category-card">
+              <div class="category-icon-wrapper">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming &amp; Web</h3>
+              <p class="category-desc">Modern coding languages for building frontend interfaces and backend logic.</p>
+
+              <ul class="skill-items-list">
+                <li class="skill-item highlight-pill">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">HTML5 &amp; CSS3</span>
+                    <span class="skill-item-badge">Skilled</span>
+                  </div>
+                  <span class="skill-item-detail">Semantic page structure, responsive layouts (Flexbox, CSS Grid), CSS variables, and modern styling.</span>
+                </li>
+
+                <li class="skill-item highlight-pill">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">Python</span>
+                    <span class="skill-item-badge">Competent</span>
+                  </div>
+                  <span class="skill-item-detail">Object-oriented programming, data structures, scripting, algorithm design, and clean logic writing.</span>
+                </li>
+
+                <li class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">JavaScript &amp; APIs</span>
+                    <span class="skill-item-badge">Applied</span>
+                  </div>
+                  <span class="skill-item-detail">DOM manipulation, asynchronous fetch calls, JSON payload handling, and third-party integrations.</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Category 4: Software Engineering Practices -->
+            <div class="skill-category-card">
+              <div class="category-icon-wrapper">
+                <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-2.18 7.37a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+              </div>
+              <h3 class="category-title">Methodologies &amp; QA</h3>
+              <p class="category-desc">Disciplined software engineering lifecycle and quality control standards.</p>
+
+              <ul class="skill-items-list">
+                <li class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">Software Testing &amp; QA</span>
+                    <span class="skill-item-badge">Core Study</span>
+                  </div>
+                  <span class="skill-item-detail">Debugging, quality assurance principles, unit testing validation, and edge-case handling.</span>
+                </li>
+
+                <li class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">Version Control &amp; Git</span>
+                    <span class="skill-item-badge">Standard</span>
+                  </div>
+                  <span class="skill-item-detail">Branching workflows, commit discipline, repository synchronization, and codebase tracking.</span>
+                </li>
+
+                <li class="skill-item">
+                  <div class="skill-item-header">
+                    <span class="skill-item-name">SDLC &amp; Object-Oriented Design</span>
+                    <span class="skill-item-badge">Foundation</span>
+                  </div>
+                  <span class="skill-item-detail">Requirements analysis, modular system design, and following structured engineering workflows.</span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           EDUCATION & ACADEMIC BACKGROUND SECTION
+           =================================================================== -->
+      <section id="education" class="education-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Formal Education</span>
+            <h2 class="section-title">Academic Background</h2>
+            <p class="section-subtitle">
+              Structured qualifications combining rigorous software engineering coursework with secondary foundational education.
+            </p>
+          </div>
+
+          <div class="timeline">
+
+            <!-- Item 1: CTU Career -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-date">Currently Studying</span>
+                  <span class="timeline-org">CTU Training Solutions / CTU Career</span>
+                </div>
+                <h3 class="timeline-degree">Software Development Programme</h3>
+                <p class="timeline-desc">
+                  Focused tertiary study in comprehensive software engineering principles, modern application architectures, backend systems, and database management. Hands-on practical lab work centered around building real-world solutions.
+                </p>
+                <div class="coursework-tags">
+                  <span class="coursework-tag">Programming Fundamentals &amp; OOP</span>
+                  <span class="coursework-tag">Web &amp; Application Development</span>
+                  <span class="coursework-tag">Databases &amp; Data Management</span>
+                  <span class="coursework-tag">Software Testing, Debugging &amp; QA</span>
+                  <span class="coursework-tag">Version Control &amp; SDLC</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2: Eshowe High School -->
+            <div class="timeline-item">
+              <div class="timeline-marker"></div>
+              <div class="timeline-content">
+                <div class="timeline-meta">
+                  <span class="timeline-date">Secondary Education</span>
+                  <span class="timeline-org">Eshowe, KwaZulu-Natal</span>
+                </div>
+                <h3 class="timeline-degree">Eshowe High School</h3>
+                <p class="timeline-desc">
+                  Completed secondary schooling and National Senior Certificate matriculation. Developed strong analytical thinking, mathematics discipline, academic accountability, and communication skills that underpin my technical software career.
+                </p>
+                <div class="coursework-tags">
+                  <span class="coursework-tag">Secondary Matriculation</span>
+                  <span class="coursework-tag">Mathematics &amp; Logic</span>
+                  <span class="coursework-tag">English Proficiency</span>
+                  <span class="coursework-tag">Academic Excellence</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           PERSONAL STRENGTHS SECTION
+           =================================================================== -->
+      <section id="strengths" class="strengths-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Work Ethic &amp; Character</span>
+            <h2 class="section-title">Personal Strengths</h2>
+            <p class="section-subtitle">
+              Qualities documented in formal evaluations that shape my day-to-day collaboration and development mindset.
+            </p>
+          </div>
+
+          <div class="strengths-grid">
+            <div class="strength-card">
+              <div class="strength-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.516 0c.85.493 1.508 1.333 1.508 2.316V18"></path>
+                </svg>
+              </div>
+              <div class="strength-content">
+                <h4>Analytical Thinker with Attention to Detail</h4>
+                <p>Carefully evaluates problem requirements before writing code. Rigorous about edge cases, code clarity, and structured logic.</p>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z"></path>
+                </svg>
+              </div>
+              <div class="strength-content">
+                <h4>Independent &amp; Collaborative Problem-Solver</h4>
+                <p>Equally capable of deep-focus solo development tasks and proactive team collaboration, pair programming, and peer reviews.</p>
+              </div>
+            </div>
+
+            <div class="strength-card">
+              <div class="strength-icon">
+                <svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-2.18 7.37a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                </svg>
+              </div>
+              <div class="strength-content">
+                <h4>Ethical, Responsible &amp; Confidential</h4>
+                <p>Mindful of data privacy, intellectual property, confidentiality standards, and maintaining a high level of professional integrity.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===================================================================
+           CONTACT SECTION
+           =================================================================== -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-tag">// Get In Touch</span>
+            <h2 class="section-title">Contact &amp; Inquiries</h2>
+            <p class="section-subtitle">
+              Whether you have an internship opening, a junior developer position, or would like to discuss my project work, feel free to connect.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <!-- Contact Info Cards -->
+            <div class="contact-card">
+              <h3 style="font-size: 1.35rem; color: #ffffff;">Contact Information</h3>
+              <p style="color: var(--text-secondary); font-size: 0.95rem;">
+                I am based in Eshowe, KwaZulu-Natal, and open to in-person, hybrid, or remote developer positions.
+              </p>
+
+              <div class="contact-method-item">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"></path>
+                  </svg>
+                </div>
+                <div class="contact-method-body">
+                  <h4>Email Address</h4>
+                  <a href="mailto:siyadumisakhuzwayo@gmail.com" class="contact-method-link">siyadumisakhuzwayo@gmail.com</a>
+                  <div style="margin-top: 4px;">
+                    <button class="btn btn-secondary btn-sm" data-copy="siyadumisakhuzwayo@gmail.com" data-label="Email" style="padding: 0.25rem 0.65rem; font-size: 0.75rem;">
+                      Copy Email
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"></path>
+                  </svg>
+                </div>
+                <div class="contact-method-body">
+                  <h4>Phone Number</h4>
+                  <a href="tel:0648529236" class="contact-method-link">064 852 9236</a>
+                  <div style="margin-top: 4px;">
+                    <button class="btn btn-secondary btn-sm" data-copy="0648529236" data-label="Phone number" style="padding: 0.25rem 0.65rem; font-size: 0.75rem;">
+                      Copy Phone
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"></path>
+                  </svg>
+                </div>
+                <div class="contact-method-body">
+                  <h4>Residential Address</h4>
+                  <p style="color: #ffffff; font-weight: 500; font-size: 0.95rem;">
+                    1993 Dunn Street, Sunnydale, Eshowe, 3815
+                  </p>
+                </div>
+              </div>
+
+              <div class="contact-method-item">
+                <div class="contact-icon-box">
+                  <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"></path>
+                  </svg>
+                </div>
+                <div class="contact-method-body">
+                  <h4>GitHub Profile</h4>
+                  <a href="https://github.com/siyadumisakhuzwayo-code" target="_blank" rel="noopener noreferrer" class="contact-method-link">github.com/siyadumisakhuzwayo-code</a>
+                </div>
+              </div>
+
+              <div style="margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--border-subtle);">
+                <a href="cv.pdf" class="btn btn-primary" style="width: 100%;" download="Siyadumisa_Khuzwayo_CV.pdf" target="_blank" rel="noopener noreferrer">
+                  <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"></path>
+                  </svg>
+                  Download Complete CV (.PDF)
+                </a>
+              </div>
+            </div>
+
+            <!-- Direct Message Form -->
+            <form id="contact-form" class="contact-form">
+              <h3 style="font-size: 1.35rem; color: #ffffff;">Send a Direct Message</h3>
+              <p style="color: var(--text-secondary); font-size: 0.95rem;">
+                Submit this quick form to dispatch a message directly to my inbox.
+              </p>
+
+              <div class="form-group">
+                <label for="sender-name" class="form-label">Your Full Name *</label>
+                <input type="text" id="sender-name" class="form-control" placeholder="e.g., Sarah Jenkins" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-email" class="form-label">Your Email Address *</label>
+                <input type="email" id="sender-email" class="form-control" placeholder="e.g., sarah@example.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="sender-subject" class="form-label">Subject</label>
+                <input type="text" id="sender-subject" class="form-control" placeholder="e.g., Internship Opportunity / Junior Role Inquiry">
+              </div>
+
+              <div class="form-group">
+                <label for="sender-message" class="form-label">Message *</label>
+                <textarea id="sender-message" class="form-control" placeholder="Write your message here..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
+                <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5"></path>
+                </svg>
+                Send Message to Siyadumisa
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-badge">SK</span>
+          <div>
+            <div style="font-weight: 700; color: #fff;">Siyadumisa Khuzwayo</div>
+            <div style="font-size: 0.78rem; color: var(--text-muted);">Software Developer Portfolio &amp; CV</div>
+          </div>
+        </div>
+
+        <p style="font-size: 0.85rem; color: var(--text-muted);">
+          &copy; 2026 Siyadumisa Khuzwayo. All rights reserved. References available on request.
+        </p>
+
+        <div class="footer-links">
+          <a href="#home">Back to Top</a>
+          <a href="https://github.com/siyadumisakhuzwayo-code" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="cv.pdf" target="_blank" rel="noopener noreferrer">CV Document</a>
+          <a href="https://lesson-session-platform.vercel.app" target="_blank" rel="noopener noreferrer">Lesson Platform</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast" role="status" aria-live="polite">
+    <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="color: var(--accent-emerald);">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+    </svg>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
