@@ -54,4 +54,4 @@ No build tools or heavy package dependencies required.
 - **GitHub:** [@siyadumisakhuzwayo-code](https://github.com/siyadumisakhuzwayo-code)
 - **Email:** [siyadumisakhuzwayo@gmail.com](mailto:siyadumisakhuzwayo@gmail.com)
 - **Phone:** 064 852 9236
-- **Location:** Eshowe, KwaZulu-Natal, South Africa
+- **Location:** Currently based in Durban, KwaZulu-Natal (Home Address: 1993 Dunn Street, Sunnydale, Eshowe, 3815)
